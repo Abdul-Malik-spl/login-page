@@ -97,7 +97,7 @@ body{
     .login-overlay,.register-overlay{
         /* background-color: red; */
         height: 100%;
-        width: 100%;
+        width: 50%;
         position: absolute;
         display: flex;
         align-items: center;
@@ -175,5 +175,9 @@ z-index: 102;
         justify-content: space-around;
         flex-direction: column;
         
+    }
+    .login-overlay,.register-overlay{
+        height: 50%;
+        width: 100%;
     }
     }
